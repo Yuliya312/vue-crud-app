@@ -2,7 +2,7 @@
 
 ## Demo
 
-- [DEMO LINK](https://Yuliya312.github.io/vue-crud-app/)
+- [DEMO LINK](https://cherry-surprise-54546.herokuapp.com/)
 
 ## Project setup
 ```
