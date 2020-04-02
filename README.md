@@ -1,5 +1,9 @@
 # vue-crud-app
 
+## Demo
+
+- [DEMO LINK](https://Yuliya312.github.io/vue-crud-app/)
+
 ## Project setup
 ```
 npm install
@@ -19,6 +23,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

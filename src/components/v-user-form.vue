@@ -44,9 +44,9 @@
               id="phone"
               name="phone" 
               type="tel"
-              title="38(0XX)XXX-XX-XX"
-              placeholder="Enter your phone" 
+              title="380XX-XXX-XX-XX"
               required
+              placeholder="Enter your phone" 
               pattern="38[0-9]{3}[ -][0-9]{3}[ -][0-9]{2}[ -][0-9]{2}"
               @blur="phoneError(user.phone)"
               :class="[isError.phone ? 'invalid' : '', 'validate']"
@@ -105,6 +105,7 @@
             class="btn waves-effect btn-color waves-ligh" 
             type="submit" 
             name="action"
+            :disabled="$v.jsonUser.$invalid"
           >
             <i class="material-icons left">add_circle_outline</i>
             Add JSON user
