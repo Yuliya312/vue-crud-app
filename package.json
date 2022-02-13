@@ -9,7 +9,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "ajv": "^6.12.0",
+    "ajv": "^6.12.3",
     "core-js": "^3.6.4",
     "express": "^4.17.1",
     "material-design-icons-iconfont": "^5.0.1",
